@@ -1,0 +1,46 @@
+@-webkit-keyframes heejin {
+    0% {
+    	transform: rotate(0deg) scale(1,1); 
+        margin-left: 0px;
+
+    }
+   50% {
+        transform: rotate(360deg) scale(2, 2);
+        margin-left: 1000px;
+   }
+   100%{
+        transform: rotate(0deg) scale(1,1);
+        margin-left: 0px;
+
+    }
+}
+
+.box {margin-top: 50px;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: heejin;
+
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+
+    }
+ .box:hover { background-color: blue;  animation-play-state: paused;
+     }
+ .box1 {margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    animation-name: heejin;
+
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+
+    }
+ .box1:hover { background-color: yellow; animation-play-state: paused;
